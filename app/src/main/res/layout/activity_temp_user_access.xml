@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.rrhh.TempUserAccess">
+
+    <TextView
+        android:id="@+id/user_instruction_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Ingrese el periodo de tiempo de acceso temporal, luego de ingresar la primer fecha podrá ingresar la segunda. Tenga en cuenta que si el usuario ya tiene acceso temporal a otros lugares estos seran reemplazados por los asignados ahora."
+        android:textAlignment="textStart"
+        android:justificationMode="inter_word"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/register_fecha_hasta"
+        android:layout_width="209dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="110dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Dar acceso hasta"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_instruction_message" />
+
+    <EditText
+        android:id="@+id/register_fecha_desde"
+        android:layout_width="209dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:textAlignment="center"
+        android:hint="Dar acceso desde"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_instruction_message" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/options_recycler_view"
+        android:layout_width="234dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="180dp"
+        android:hint="Lugares Físicos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_instruction_message"
+        tools:listitem="@layout/item_option" />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="209dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/blue"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/white"
+        android:enabled="false"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_instruction_message"
+        app:layout_constraintVertical_bias="0.981" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

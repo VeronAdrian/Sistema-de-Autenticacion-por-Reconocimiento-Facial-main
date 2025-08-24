@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">BioginX</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_surname">Apellido</string>
+    <string name="action_sign_in">Registrarse</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register">Registrarse</string>
+    <string name="switch_camera">Cambiar cámara</string>
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_area">Area/s</string>
+    <string name="prompt_confirm_password">Confirmar contraseña</string>
+    <string name="confirm_password_not_equal_password">Las contraseñas no coinciden</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="prompt_dni">DNI</string>
+    <string name="title_activity_photo_register">PhotoRegister</string>
+    <string name="title_main_activity">Main Activity</string>
+    <string name="text_view_person_name">[Nombre persona]</string>
+    <string name="home_text_enter_face_recognition">Ingresar con reconocimiento facial (SEGURIDAD)</string>
+    <string name="home_text_enter_face_recognition_rrhh">Ingresar con reconocimiento facial (RRHH)</string>
+    <string name="home_text_enter_dni_scanner">Ingresar con DNI</string>
+    <string name="face_recognition_visitors">Autenticación de\nvisitantes con reconocimiento facial</string>
+    <string name="face_recognition_visitors_dni">Autenticación de\nvisitantes con DNI</string>
+    <string name="authorization_message_continue_button">OK</string>
+    <string-array name="user_active_options">
+        <item>Activo</item>
+        <item>Inactivo</item>
+    </string-array>
+    <string-array name="rrhh_logs_detail_options">
+        <item>Con\ndetalle</item>
+        <item>Sin\ndetalle</item>
+    </string-array>
+    <string name="title_activity_admin_autenticacion">AdminAutenticacionActivity</string>
+    <string name="title_autenticacion">Autenticación</string>
+    <string name="title_logs">Logs</string>
+    <string name="title_Acerca">Acerca</string>
+    <string name="disclaimer">© Biogin 2024 – 2024\nBiogin X – Todos los derechos reservados</string>
+    <string name="iniciar_turno">Iniciar turno</string>
+    <string name="finalizar_turno">Finalizar turno</string>
+    <string name="mansaje_turno_no_iniciado">Para comenzar con la autenticación\nde visitantes, inicie el turno</string>
+    <string name="mensaje_turno_iniciado">Presione alguno de los botones\npara autenticar visitantes</string>
+    <string name="fechaHora">Fecha y \nhora</string>
+
+    <string name="hora">Hora</string>
+    <string name="id_autenticador">DNI\nAutenticador</string>
+    <string name="id_visitante">DNI\nVisitante</string>
+    <string name="categoria">Categoría\nusuario\nafectado</string>
+    <string name="title_activity_rrhhactivity">RRHHActivity</string>
+    <string name="title_abm">ABM</string>
+    <string name="title_modulos">Modulos</string>
+    <string name="title_lugares">Lugares</string>
+    <string name="integrantes_biogin">
+        <b>Nuestro Equipo:\n</b>
+        • Antúnez, Fernando Iván\n
+        • Barrientos, Francisco\n
+        • Cabrera, Juan Manuel\n
+        • Chun, Mariano\n
+        • Hirschfeld, Agustina Camila\n
+        • Nissero, Matías Daniel\n
+        • Verón, Adrián Gustavo
+    </string>
+    <string name="skip">Skip</string>
+    <string name="lugares_fisicos_ici">Lugares físicos\ndel ICI</string>
+    <string name="lugares_fisicos_ico">Lugares físicos\ndel ICO</string>
+    <string name="lugares_fisicos_idei">Lugares físicos\ndel IDEI</string>
+    <string name="lugares_fisicos_idh">Lugares físicos\ndel IDH</string>
+    <string name="mensaje_ver_lugares_fisicos">Para ver los lugares físicos de un instituto, presione el botón correspondiente al mismo</string>
+    <string name="mensaje_agregar_lugar">Para agregar un nuevo lugar físico presione el botón de abajo</string>
+    <string name="agregar_lugar_fisico">Agregar\nlugar físico</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="texto_ayuda_agregar">Para agregar un nuevo lugar físico, ingrese un nombre y seleccione a que institutos pertenece</string>
+    <string name="texto_ayuda_modificar">Para un lugar físico ya existente, puede cambiar el nombre y modificar a que institutos pertenece</string>
+    <string name="nombre">Nombre</string>
+    <string name="modificar_lugar_fisico">Modificar\nlugar físico</string>
+    <string name="desactivar_lugar_fisico">Desactivar\nlugar físico</string>
+    <string name="mensaje_modificar_lugar">Para modificar o desactivar un lugar físico, ingrese el nombre y luego presione el botón correspondiente</string>
+
+    <string name="dni_master_user">DNI\nusuario\nmaestro</string>
+    <string name="dni_user_affected">DNI usuario afectado</string>
+    <string name="log_type">Tipo de log</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_view_succesful_in_auth_data_logs">Cantidad de ingresos\nexitosos</string>
+    <string name="text_view_succesful_out_auth_data_logs">Cantidad de egresos\nexitosos</string>
+    <string name="text_view_unsuccesful_auth_data_logs">Cantidad autenticaciones\nfallidas</string>
+    <string name="title_categorias">Categorías</string>
+    <string name="info_consulta_categorias">Presione el botón para ver las categorías actuales</string>
+    <string name="consultar_categorias">Consultar categorías</string>
+    <string name="modificar_categoria">Modificar\ncategoría</string>
+    <string name="desactivar_categoria">Desactivar\ncategoría</string>
+    <string name="info_agregar_categoria">Para agregar una nueva categoría, presione el botón de abajo</string>
+    <string name="texto_ayuda_categorias">Para crear una nueva categoría, ingrese el nombre y complete los campos correspondiente</string>
+    <string name="info_modificar_categoria">Para modificar o desactivar una categoría, ingrese el nombre y luego presione el botón correspondiente</string>
+    <string name="texto_ayuda_modificacion_categorias">La modificación de categorías existentes permite cambiar únicamente el nombre de la misma</string>
+    <string name="ayuda_categoria_temporal">Tilde la siguiente opción si las personas que tengan asignada esta categoría tendrán permitido el acceso durante un plazo determinado</string>
+    <string name="ayuda_categoria__institutos">Tilde la siguiente opcioón si las personas que tengan asignada esta categoría tendrán institutos a los que pertenecen</string>
+    <string name="agregar_categoria">Agregar categoría</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">ZIalbZmTNhF7KsEZhq6iGJS1F970qM7A4csbNIEn</string>
+    <string name="back4app_client_key">P22gWwIeukQA3yiFIBohWEDDjFkqS1zEUTZPjgBG</string>
+    <string name="firebase_app_id">1:620958752168:android:79eaf5166c0a76b98e919d</string>
+    <string name="firebase_project_id">sistema-autenticacion-facial</string>
+    <string name="home_text_enter_face_recognition_admin">Ingresar con reconocimiento facial (ADMIN)</string>
+    <string name="text_select_at_least_an_institute">* Seleccione al menos un instituto</string>
+    <string name="home_text_enter_face_recognition_jerarquico">Ingresar con reconocimiento facial (JERÁRQUICO)</string>
+    <string name="ayuda_mail_jerarquico">Para configurar el mail al cual se enviarán los reportes, complete el siguiente campo</string>
+    <string name="ayuda_dias_entrenamiento">Seleccione los días en los que se realizará el entrenamiento para los modelos de reconocimiento facial</string>
+    <string name="text_dni_seguridad">DNI Seguridad:</string>
+</resources>

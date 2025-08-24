@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.jerarquico.JerarquicoActivity"
+            android:exported="false" />
+      <activity
+            android:name=".ui.rrhh.TempUserAccess"
+            android:exported="false" />
+        <activity
+            android:name=".ui.rrhh.categorias.ABMCategoryActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".ui.rrhh.categorias.Categorias" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".ui.admin.AdminActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
+
+        <activity
+            android:name=".ui.rrhh.TempUserSuspensionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.rrhh.modulos.ABMAreaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".AuthorizationMessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OfflineLogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Popup"
+            android:exported="true" />
+        <activity
+            android:name=".UserManagement"
+            android:exported="true" />
+        <activity
+            android:name=".RRHHActivity"
+            android:exported="false"
+            android:label="@string/title_activity_rrhhactivity" />
+        <activity
+            android:name=".SeguridadActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_autenticacion" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PhotoRegisterActivity"
+            android:exported="true"
+            android:parentActivityName=".ui.login.RegisterActivity"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.login.RegisterActivity"
+            android:exported="true"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".FaceRecognitionActivity"
+            android:exported="true"
+            android:label="@string/title_main_activity"
+            android:theme="@style/Theme.MyApplication" />
+    </application>
+
+</manifest>

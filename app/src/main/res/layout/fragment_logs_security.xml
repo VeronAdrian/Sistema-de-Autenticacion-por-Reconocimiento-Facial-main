@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.seguridad.logs.LogsFragment">
+
+    <TextView
+        android:id="@+id/text_view_dni_seguridad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:text="@string/text_dni_seguridad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dni_seguridad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/title_logs_security"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos logs"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/data_successful_auths_logs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_logs_security"
+        android:text="@string/text_view_succesful_in_auth_data_logs" />
+
+    <TextView
+        android:id="@+id/data_successful_out_auths_logs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="50dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/data_successful_auths_logs"
+        app:layout_constraintTop_toBottomOf="@+id/title_logs_security"
+        android:text="@string/text_view_succesful_out_auth_data_logs" />
+
+
+    <TextView
+        android:id="@+id/data_unsuccessful_auths_logs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        android:text="@string/text_view_unsuccesful_auth_data_logs"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_logs_security" />
+
+    <TextView
+        android:id="@+id/amount_of_in_successful_auths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/data_successful_auths_logs"
+        app:layout_constraintStart_toStartOf="@+id/data_successful_auths_logs"
+        app:layout_constraintTop_toBottomOf="@+id/data_successful_auths_logs" />
+
+    <TextView
+        android:id="@+id/amount_of_out_successful_auths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/data_successful_out_auths_logs"
+        app:layout_constraintStart_toStartOf="@+id/data_successful_out_auths_logs"
+        app:layout_constraintTop_toBottomOf="@+id/data_successful_out_auths_logs" />
+
+    <TextView
+        android:id="@+id/amount_of_unsuccessful_auths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/data_unsuccessful_auths_logs"
+        app:layout_constraintStart_toStartOf="@+id/data_unsuccessful_auths_logs"
+        app:layout_constraintTop_toBottomOf="@+id/data_unsuccessful_auths_logs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
